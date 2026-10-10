@@ -24,9 +24,9 @@
 
 #include <wayland-server-core.h>
 
-#include "../core/core_types.h"
+#include "src/core/core_types.h"
 
-#include "../input/wl_seat.h"
+#include "src/input/wl_seat.h"
 
 struct vt_data_offer_t {
   struct wl_resource                    *resource;

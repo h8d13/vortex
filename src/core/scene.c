@@ -21,7 +21,7 @@
  */
 
 #include "scene.h"
-#include "pixman.h"
+#include <pixman.h>
 #include "src/core/compositor.h"
 #include "src/core/core_types.h"
 #include "src/core/surface.h"

@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "../core/core_types.h"
+#include "src/core/core_types.h"
 
 struct vt_linux_explicit_sync_v1_surface_state_t {
   struct vt_surface_addon_t addon;

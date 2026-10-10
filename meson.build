@@ -19,6 +19,10 @@ add_project_arguments('-Ddefault_library=static', language: 'c')
 runara_sp  = subproject('runara')
 runara_dep = runara_sp.get_variable('runara_dep')
 
+# project headers are included as "src/...", relative to the repo root
+vortex_root_inc = include_directories('.')
+dep_pixman      = dependency('pixman-1', required: true)
+
 subdir('src')
 
 cc = meson.get_compiler('c')
@@ -29,8 +33,6 @@ dep_wayland_protos  = dependency('wayland-protocols', required: true)
 dep_egl             = dependency('egl',               required: true)
 dep_udev            = dependency('libudev',           required: true)
 dep_gl              = dependency('gl',                required: true)
-dep_pixman          = dependency('pixman-1',          required: true)
-dep_seat            = dependency('libseat',           required: true)
 dep_libinput        = dependency('libinput',          required: true)
 dep_xkbcommon       = dependency('xkbcommon',         required: false)
 
@@ -140,12 +142,12 @@ vortex_src = files('src/vortex.c',
 'src/core/scene.c',
 'src/core/scene.h',
 )
-vortex_inc = include_directories('include', '/usr/include/pixman-1/')
+vortex_inc = include_directories('include')
 
 deps = [
   dep_wayland_server, dep_wayland_egl,
   dep_egl, dep_libinput, dep_udev, dep_gl,
-  runara_dep, dep_pixman, dep_seat,
+  runara_dep, dep_pixman,
 ]
 if dep_xkbcommon.found()
   deps += dep_xkbcommon

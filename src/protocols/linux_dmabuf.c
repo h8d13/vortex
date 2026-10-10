@@ -22,8 +22,8 @@
 
 #define _GNU_SOURCE
 #include "linux_dmabuf.h"
-#include "../render/dmabuf.h"
-#include "../render/dmabuf_attr.h"
+#include "src/render/dmabuf.h"
+#include "src/render/dmabuf_attr.h"
 #include "src/render/drm_format.h"
 
 #include "src/core/buffer.h"
@@ -39,7 +39,7 @@
 #include <wayland-server-core.h>
 #include <wayland-util.h>
 
-#include "../core/util.h"
+#include "src/core/util.h"
 
 #define _SUBSYS_NAME "VT_PROTO_LINUX_DMABUF_V1"
 

@@ -33,7 +33,7 @@
 #include <sys/ioctl.h>
 #include <sys/stat.h>
 
-#include "../../core/core_types.h"
+#include "src/core/core_types.h"
 
 #define _VT_DRM_PRIMARY_MINOR_NAME "card"
 #define _SUBSYS_NAME               "SESSION"

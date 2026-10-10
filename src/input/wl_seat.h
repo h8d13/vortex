@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "../core/surface.h"
+#include "src/core/surface.h"
 
 #include <stdint.h>
 #include <wayland-util.h>

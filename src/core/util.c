@@ -26,7 +26,7 @@
 #include <string.h>
 #include <time.h>
 
-#include "../core/core_types.h"
+#include "src/core/core_types.h"
 #include "util.h"
 #include <dirent.h>
 #include <errno.h>

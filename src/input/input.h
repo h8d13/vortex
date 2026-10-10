@@ -25,7 +25,7 @@
 #include <stdbool.h>
 #include <xkbcommon/xkbcommon.h>
 
-#include "../core/core_types.h"
+#include "src/core/core_types.h"
 
 enum vt_input_backend_platform_t {
   VT_INPUT_LIBINPUT = 0,

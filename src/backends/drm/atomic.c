@@ -24,7 +24,7 @@
 #include "drm_types.h"
 #include "fb.h"
 #include "kms.h"
-#include "libliftoff.h"
+#include <libliftoff.h>
 
 #include <errno.h>
 #include <inttypes.h>

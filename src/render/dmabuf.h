@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "../core/core_types.h"
-#include "../core/session.h"
+#include "src/core/core_types.h"
+#include "src/core/session.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <sys/types.h>

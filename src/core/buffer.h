@@ -24,8 +24,8 @@
 
 #include <wayland-server-core.h>
 
-#include "../render/dmabuf_attr.h"
-#include "../render/shm_attr.h"
+#include "src/render/dmabuf_attr.h"
+#include "src/render/shm_attr.h"
 #include "core_types.h"
 
 struct vt_buffer_t;

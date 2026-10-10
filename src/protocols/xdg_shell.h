@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "../core/core_types.h"
+#include "src/core/core_types.h"
 #include <stdbool.h>
 #include <wayland-server.h>
 #include <wayland-util.h>

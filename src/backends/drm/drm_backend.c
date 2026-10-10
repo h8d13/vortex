@@ -22,7 +22,7 @@
 
 #define _GNU_SOURCE
 
-#include "core/core_types.h"
+#include "src/core/core_types.h"
 #include <drm/drm_fourcc.h>
 #include <fcntl.h>
 #include <gbm.h>
@@ -46,23 +46,23 @@
 #include <wayland-server-core.h>
 #include <wayland-util.h>
 
-#include "core/compositor.h"
-#include "core/output.h"
-#include "core/surface.h"
-#include "render/renderer.h"
+#include "src/core/compositor.h"
+#include "src/core/output.h"
+#include "src/core/surface.h"
+#include "src/render/renderer.h"
 
-#include "./drm.h"
-#include "./session_drm.h"
+#include <drm.h>
+#include "session_drm.h"
 
-#include "core/session.h"
-#include "core/util.h"
-#include "input/wl_seat.h"
-#include "protocols/linux_dmabuf.h"
-#include "protocols/linux_explicit_sync.h"
-#include "protocols/wl_output.h"
-#include "protocols/wl_shm.h"
-#include "render/dmabuf.h"
-#include "render/drm_format.h"
+#include "src/core/session.h"
+#include "src/core/util.h"
+#include "src/input/wl_seat.h"
+#include "src/protocols/linux_dmabuf.h"
+#include "src/protocols/linux_explicit_sync.h"
+#include "src/protocols/wl_output.h"
+#include "src/protocols/wl_shm.h"
+#include "src/render/dmabuf.h"
+#include "src/render/drm_format.h"
 
 #include "atomic.h"
 #include "cursor.h"

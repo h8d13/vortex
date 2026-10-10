@@ -35,9 +35,9 @@ struct vt_dmabuf_feedback_t;
 #include <pixman.h>
 #include <wayland-util.h>
 
-#include "../input/input.h"
-#include "../input/wl_seat.h"
-#include "../render/dmabuf_attr.h"
+#include "src/input/input.h"
+#include "src/input/wl_seat.h"
+#include "src/render/dmabuf_attr.h"
 
 #include "session.h"
 #include "util.h"

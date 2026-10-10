@@ -24,8 +24,8 @@
 
 #include "wl_shm.h"
 
-#include "../core/buffer.h"
-#include "../core/util.h"
+#include "src/core/buffer.h"
+#include "src/core/util.h"
 
 #include <assert.h>
 #include <errno.h>

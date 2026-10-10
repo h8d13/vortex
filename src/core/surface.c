@@ -21,7 +21,7 @@
  */
 
 #include "surface.h"
-#include "../input/wl_seat.h"
+#include "src/input/wl_seat.h"
 #include "src/core/buffer.h"
 #include "src/core/content_update.h"
 #include "src/core/core_types.h"

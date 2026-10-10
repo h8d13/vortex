@@ -26,7 +26,7 @@
 #include <unistd.h>
 #include <wayland-util.h>
 
-#include "pixman.h"
+#include <pixman.h>
 #include "src/core/buffer.h"
 #include "src/core/compositor.h"
 #include "src/core/core_types.h"

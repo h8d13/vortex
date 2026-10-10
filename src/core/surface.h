@@ -22,9 +22,9 @@
 
 #pragma once
 
-#include "../core/buffer.h"
-#include "../protocols/linux_dmabuf.h"
-#include "../protocols/linux_explicit_sync.h"
+#include "src/core/buffer.h"
+#include "src/protocols/linux_dmabuf.h"
+#include "src/protocols/linux_explicit_sync.h"
 #include "scene.h"
 #include <wayland-server.h>
 #define VT_MAX_FRAME_CBS 8

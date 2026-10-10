@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "../core/core_types.h"
-#include "../core/util.h"
+#include "src/core/core_types.h"
+#include "src/core/util.h"
 #include <wayland-util.h>
 
 struct vt_buffer_t;

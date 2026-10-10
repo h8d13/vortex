@@ -21,7 +21,7 @@
  */
 
 #include "wl_surface.h"
-#include "pixman.h"
+#include <pixman.h>
 #include "src/core/buffer.h"
 #include "src/core/buffer_orchestrator.h"
 #include "src/core/content_update.h"

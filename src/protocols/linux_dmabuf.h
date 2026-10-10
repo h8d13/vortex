@@ -22,10 +22,10 @@
 
 #pragma once
 
-#include "../core/surface_addon.h"
-#include "../render/dmabuf.h"
+#include "src/core/surface_addon.h"
+#include "src/render/dmabuf.h"
 
-#include "../render/dmabuf_attr.h"
+#include "src/render/dmabuf_attr.h"
 
 struct vt_linux_dmabuf_v1_buffer_t {
   uint32_t                w, h;

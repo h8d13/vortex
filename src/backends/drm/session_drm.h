@@ -27,7 +27,7 @@
 #include <libudev.h>
 #include <wayland-server-core.h>
 
-#include "../../core/session.h"
+#include "src/core/session.h"
 
 struct vt_session_drm_t {
   struct libseat      *seat;

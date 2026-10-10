@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "../../core/core_types.h"
-#include "../renderer.h"
+#include "src/core/core_types.h"
+#include "src/render/renderer.h"
 #include "src/core/surface.h"
 
 #include <EGL/egl.h>

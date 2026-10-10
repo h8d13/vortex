@@ -35,14 +35,14 @@
 #include <wayland-server-core.h>
 #include <wayland-util.h>
 
-#include "../..//core/output.h"
-#include "../../core/compositor.h"
-#include "../../protocols/linux_dmabuf.h"
-#include "../../protocols/linux_explicit_sync.h"
-#include "../../protocols/wl_output.h"
-#include "../../protocols/wl_shm.h"
-#include "../../render/drm_format.h"
-#include "../../render/renderer.h"
+#include "src/core/output.h"
+#include "src/core/compositor.h"
+#include "src/protocols/linux_dmabuf.h"
+#include "src/protocols/linux_explicit_sync.h"
+#include "src/protocols/wl_output.h"
+#include "src/protocols/wl_shm.h"
+#include "src/render/drm_format.h"
+#include "src/render/renderer.h"
 #include "xdg-shell-client-protocol.h"
 
 #include <errno.h>

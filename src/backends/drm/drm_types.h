@@ -22,10 +22,10 @@
 
 #pragma once
 
-#include "core/buffer.h"
-#include "core/core_types.h"
-#include "core/scene.h"
-#include "core/session.h"
+#include "src/core/buffer.h"
+#include "src/core/core_types.h"
+#include "src/core/scene.h"
+#include "src/core/session.h"
 #include "props.h"
 #include <gbm.h>
 #include <libliftoff.h>

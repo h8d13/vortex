@@ -22,7 +22,7 @@
 
 #pragma once
 
-#include "../../core/core_types.h"
+#include "src/core/core_types.h"
 
 bool backend_init_wl(struct vt_backend_t *backend);
 

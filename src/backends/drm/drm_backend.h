@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "core/core_types.h"
-#include "render/dmabuf.h"
+#include "src/core/core_types.h"
+#include "src/render/dmabuf.h"
 
 bool backend_init_drm(struct vt_backend_t *backend);
 

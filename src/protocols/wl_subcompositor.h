@@ -22,8 +22,8 @@
 
 #pragma once
 
-#include "../core/core_types.h"
-#include "../core/scene.h"
+#include "src/core/core_types.h"
+#include "src/core/scene.h"
 
 struct vt_subsurface_t {
   struct wl_resource *resource;

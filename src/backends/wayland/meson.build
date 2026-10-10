@@ -55,8 +55,6 @@ xdg_client_code = custom_target(
   ],
 )
 
-vortex_inc = include_directories('/usr/include/pixman-1/')
-
 shared_module(
   'wl-backend',
   [
@@ -66,10 +64,11 @@ shared_module(
   ],
   dependencies: [
     dep_wayland_client,
+    dep_pixman,
     dep_runara_headers,
   ],
   install: true,
-  include_directories: vortex_inc,
+  include_directories: vortex_root_inc,
   install_dir: join_paths(
     get_option('libdir'),
     'vortex/backends'
